@@ -118,7 +118,6 @@ div.cover {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100px;
     position: relative;
     z-index: 1;
 }

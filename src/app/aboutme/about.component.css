@@ -9,3 +9,12 @@
   [data-scroll="out"] {
     opacity: 0;
   }
+
+#myBg { 
+  background-image: url('./../../assets/pranay.jpg'); 
+}
+@media only screen and (max-width: 300px) {
+  #myBg { 
+    background-image: url('./../../assets/pranay-sml.jpg'); 
+  }
+}
