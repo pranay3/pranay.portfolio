@@ -1,0 +1,58 @@
+div.intro {
+    position: absolute;
+    top: 55%;
+    width: 450px;
+    height: 400px;
+    left: 9%;
+    overflow-y: hidden;
+}
+
+.dash {
+    width: 100px;
+    height:10px;
+    display: inline-block;
+    filter: invert(92%) sepia(93%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
+}
+
+
+
+.intro1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    display: table;
+    margin: auto;
+    font-family: stylish;
+   
+}
+
+span.intro2 {
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    display: inline-block;
+    margin: auto;
+    font-family: stylish;
+    font-weight: bolder;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+[data-scroll] {
+    transition: all 1s;
+  }
+  
+  [data-scroll="in"] {
+  opacity: 1;
+  transform: translateX(0);
+  }
+  
+  [data-scroll="out"] {
+  opacity: 0;
+  transform: translateY(400px);
+  }
+
+  
