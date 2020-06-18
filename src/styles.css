@@ -122,6 +122,23 @@ div.cover {
     z-index: 1;
 }
 
+.raised {
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);border-radius: 100px;
+}
+
+@media only screen and (max-width: 300px) {
+  
+.parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: inline;
+  z-index: 1;
+}
+}
+
 .whiten {
   filter: invert(92%) sepia(93%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
 }
