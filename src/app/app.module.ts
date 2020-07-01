@@ -9,9 +9,12 @@ import { ContentComponent } from './content/content.component';
 import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './aboutme/about.component';
 import { BlogComponent } from './Blog/blog.component';
+import { MatDialogModule}  from '@angular/material/dialog';
 import { MatCardModule}  from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoverComponent } from './cover/cover.component';
+import { BlogDialogComponent } from './Blog/blog-dialog.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -20,7 +23,9 @@ import { CoverComponent } from './cover/cover.component';
     BrowserModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatDialogModule,
     MatCardModule,
+    HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: ContentComponent },
     ])
@@ -32,7 +37,8 @@ import { CoverComponent } from './cover/cover.component';
     WorkComponent,
     BlogComponent,
     AboutComponent,
-    CoverComponent
+    CoverComponent,
+    BlogDialogComponent
   ],
   bootstrap: [ AppComponent ]
 })
